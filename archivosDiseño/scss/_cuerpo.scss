@@ -1,3 +1,7 @@
+@import 'variables';
 body {
-    
+    background-color: $color-fondo;
+    h1 {
+        color: crimson;
+    }
 }

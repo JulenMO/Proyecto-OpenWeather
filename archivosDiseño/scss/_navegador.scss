@@ -1,6 +1,5 @@
+@use 'sass:color';
+@import 'variables';
 nav {
-    img {
-        width: 50%;
-        height: 70%;
-    }
+    background-color: color.adjust($color-fondo, $lightness: -20%);;
 }

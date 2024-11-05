@@ -1,6 +1,12 @@
-nav img {
-  width: 50%;
-  height: 70%;
+nav {
+  background-color: rgb(94.8317757009, 178.8224299065, 206.1682242991);
+}
+
+body {
+  background-color: #ADD8E6;
+}
+body h1 {
+  color: crimson;
 }
 
 /*# sourceMappingURL=index.css.map */
