@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="navbar fixed-top">
         <div class="container-fluid">
-            <button type="button" class="btn btn-link text-dark">
+            <button type="button" class="btn btn-link text-dark ml-3" id="btnDesplegarColumna">
                 <i class="fa-solid fa-bars"></i>
             </button>
             <div class="ms-auto">
@@ -22,18 +22,18 @@
             </div>
         </div>
     </nav>
-    <section class="row">
+    <section class="row my-5">
         <div class="col-2 d-flex flex-column align-items-center justify-content-center vh-100" id="columnaDesplegable">
-            <button class="btn btn-primary"><i class="fa-solid fa-house"></i> Home</button>
-            <button class="btn btn-primary my-3"><i class="fa-solid fa-magnifying-glass"></i> Buscar</button>
-            <button class="btn btn-primary"><i class="fa-solid fa-location-dot"></i> Localización</button>
+            <button class="btn btn-primary" id="irHome"><i class="fa-solid fa-house"></i> Home</button>
+            <button class="btn btn-primary my-3" id="irBuscar"><i class="fa-solid fa-magnifying-glass"></i> Buscar</button>
+            <button class="btn btn-primary" id="irLocalizacion"><i class="fa-solid fa-location-dot"></i> Localización</button>
         </div>
         <div class="col-10 p-5">
-            <div class="p-2" id="home">
+            <div class="p-2" id="seccionHome">
                 <h4 class="display-4">Your weather app</h4>
                 <h6 class="display-6">Know the weather at all times</h6>
             </div>
-            <div class="p-2" id="buscar">
+            <div class="p-2" id="seccionBuscar">
                 <h4 class="display-4">Buscar por ciudad</h4>
                 <div class="input-group w-75">
                     <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar"
@@ -47,10 +47,10 @@
                     <div class="row">
                         <div class="col-4">
                             <img src="https://via.placeholder.com/300" alt="Tiempo" class="img-fluid">
-                            <p class="mt-3">Texto debajo de la imagen</p>
+                            <p class="mt-3">Predicción para los próximos 4 días:</p>
                         </div>
                         <div class="col-8">
-                            Clear
+                            Tiempo actual:
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
         </div>
     </section>
 
-    <footer class="footer text-white text-center py-2">
+    <footer class="footer text-white text-center py-2 fixed-bottom">
         © 2024 Julen M.O.
     </footer>
 
