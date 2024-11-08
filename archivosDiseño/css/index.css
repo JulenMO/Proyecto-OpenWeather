@@ -5,6 +5,7 @@ nav {
 
 body {
   background-color: #ADD8E6;
+  overflow-x: hidden;
 }
 body h4 {
   color: crimson;

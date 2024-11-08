@@ -2,6 +2,7 @@
 @import 'variables';
 body {
     background-color: $color-fondo;
+    overflow-x: hidden;
     h4 {
         color: $color-titulos;
     }
