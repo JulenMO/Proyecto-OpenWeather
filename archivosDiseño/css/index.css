@@ -1,12 +1,20 @@
 nav {
   background-color: rgb(94.8317757009, 178.8224299065, 206.1682242991);
+  color: crimson;
 }
 
 body {
   background-color: #ADD8E6;
 }
-body h1 {
+body h4 {
   color: crimson;
+}
+body #columnaDesplegable {
+  background-color: rgb(141.7327102804, 201.1289719626, 220.4672897196);
+}
+
+footer {
+  background-color: rgb(58.4112149533, 158.8785046729, 191.5887850467);
 }
 
 /*# sourceMappingURL=index.css.map */

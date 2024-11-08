@@ -1,3 +1,5 @@
+@use 'sass:color';
+@import 'variables';
 footer {
-    
+    background-color: color.adjust($color-fondo, $lightness: -30%);
 }

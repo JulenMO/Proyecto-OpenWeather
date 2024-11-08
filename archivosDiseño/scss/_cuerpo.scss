@@ -1,7 +1,11 @@
+@use 'sass:color';
 @import 'variables';
 body {
     background-color: $color-fondo;
-    h1 {
-        color: crimson;
+    h4 {
+        color: $color-titulos;
+    }
+    #columnaDesplegable {
+        background-color: color.adjust($color-fondo, $lightness: -8%);
     }
 }

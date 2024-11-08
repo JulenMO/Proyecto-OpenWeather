@@ -14,34 +14,43 @@
 <body>
     <nav class="navbar">
         <div class="container-fluid">
-            <button type="button" class="btn btn-primary">
-                <i class="fa-solid fa-magnifying-glass"></i>
+            <button type="button" class="btn btn-link text-dark">
+                <i class="fa-solid fa-bars"></i>
             </button>
             <div class="ms-auto">
-                <span class="navbar-text">
-                    Sweet weather yeah!
-                </span>
+                Sweet weather yeah!
             </div>
-            <hr>
         </div>
     </nav>
     <section class="row">
-        <div class="col-2">
-            <p>
-                asd
-            </p>
+        <div class="col-2 d-flex flex-column align-items-center justify-content-center vh-100" id="columnaDesplegable">
+            <button class="btn btn-primary"><i class="fa-solid fa-house"></i> Home</button>
+            <button class="btn btn-primary my-3"><i class="fa-solid fa-magnifying-glass"></i> Buscar</button>
+            <button class="btn btn-primary"><i class="fa-solid fa-location-dot"></i> Localización</button>
         </div>
-        <div class="col-10">
-            <div class="container">
-                <h1>Buscar por ciudad</h1>
+        <div class="col-10 p-5">
+            <div class="p-2" id="home">
+                <h4 class="display-4">Your weather app</h4>
+                <h6 class="display-6">Know the weather at all times</h6>
+            </div>
+            <div class="p-2" id="buscar">
+                <h4 class="display-4">Buscar por ciudad</h4>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="button-search">
+                    <button class="btn btn-primary" type="button" id="btnBuscar"><i class="fa-solid fa-magnifying-glass"></i> Buscar</button>
+                </div>
+            </div>
+            <div class="p-2" id="resultadoWeather">
+                <h4 class="display-4">Your weather app</h4>
+                <h6 class="display-6">Know the weather at all times</h6>
             </div>
         </div>
     </section>
-    <footer>
-        <p>
-            &#169;2024 Julen M.O.
-        </p>
+
+    <footer class="footer text-white text-center py-2">
+        © 2024 Julen M.O.
     </footer>
+
     <script src="funcionalidad/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

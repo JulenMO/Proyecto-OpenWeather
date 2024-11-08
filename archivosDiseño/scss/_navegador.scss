@@ -1,5 +1,6 @@
 @use 'sass:color';
 @import 'variables';
 nav {
-    background-color: color.adjust($color-fondo, $lightness: -20%);;
+    background-color: color.adjust($color-fondo, $lightness: -20%);
+    color: $color-titulos;
 }
