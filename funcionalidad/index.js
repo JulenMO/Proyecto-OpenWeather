@@ -23,7 +23,7 @@ jQuery(document).ready(function () {
     
     function buscarTiempo(ciudad) {
         var apiKey = '1b73694ea1887ac95e48b4b93ec87213';
-        var url = `https://api.openweathermap.org/data/2.5/forecast?q=${ciudad}&appid=${apiKey}&lang=es&units=metric`;
+        var url = `https://api.openweathermap.org/data/2.5/forecast?q=${ciudad}&appid=${apiKey}&lang=es`;
 
         $.ajax({
             url: url,
