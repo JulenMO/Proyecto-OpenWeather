@@ -1,5 +1,5 @@
 # Proyecto-OpenWeather
-Proyecto final 1º evaluación para Desarrollo de Interfaces
+Proyecto final 1º evaluación para Desarrollo de Interfaces, SPA(Aplicación de una Sola Página), subida en GitHub Pages.
 
 ## Tecnologías utilizadas:
     - HTML
