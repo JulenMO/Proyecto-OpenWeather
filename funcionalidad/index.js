@@ -82,7 +82,6 @@ jQuery(document).ready(function () {
             navigator.geolocation.getCurrentPosition(function (position) {
                 var lat = position.coords.latitude;
                 var lon = position.coords.longitude;
-                
                 var apiKey = '1b73694ea1887ac95e48b4b93ec87213';
                 var url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&lang=es`;
 
