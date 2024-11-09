@@ -1,0 +1,8 @@
+@use 'sass:color';
+@import 'variables';
+@mixin seccionesFijas() {
+    background-color: color.adjust($colorFondo, $lightness: -20%);
+    font-weight: bold;
+    color: $colorTitulos;
+    font-size: 110%;
+}

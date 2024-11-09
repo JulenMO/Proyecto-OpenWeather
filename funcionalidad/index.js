@@ -78,8 +78,6 @@ jQuery(document).ready(function () {
     });
 
     $('#irLocalizacion').on('click', function () {
-        seccionHome.hide();
-        seccionBuscar.hide();
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(function (position) {
                 var lat = position.coords.latitude;
@@ -93,6 +91,8 @@ jQuery(document).ready(function () {
                     method: 'GET',
                     success: function (data) {
                         var ciudad = data.name;
+                        seccionHome.hide();
+                        seccionBuscar.hide();
                         buscarTiempo(ciudad);
                     },
                     error: function (xhr) {

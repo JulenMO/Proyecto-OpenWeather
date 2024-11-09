@@ -1,6 +1,7 @@
 @use 'sass:color';
 @import 'variables';
+@import 'mixins';
 nav {
-    background-color: color.adjust($color-fondo, $lightness: -20%);
-    color: $color-titulos;
+    @include seccionesFijas();
+    font-family: $fuenteSweetWeather;
 }

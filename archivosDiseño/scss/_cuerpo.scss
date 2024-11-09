@@ -1,12 +1,12 @@
 @use 'sass:color';
 @import 'variables';
 body {
-    background-color: $color-fondo;
+    background-color: $colorFondo;
     overflow-x: hidden;
     h4 {
-        color: $color-titulos;
+        color: $colorTitulos;
     }
     #columnaDesplegable {
-        background-color: color.adjust($color-fondo, $lightness: -8%);
+        background-color: color.adjust($colorFondo, $lightness: -8%);
     }
 }

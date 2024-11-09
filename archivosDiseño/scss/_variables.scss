@@ -1,2 +1,8 @@
-$color-fondo: #ADD8E6;
-$color-titulos: crimson;
+@use 'sass:color';
+@font-face {
+    font-family: miFuente;
+    src: url(../fonts/SassyFrass-Regular.ttf);
+}
+$fuenteSweetWeather: miFuente;
+$colorFondo: #ADD8E6;
+$colorTitulos: color.adjust(crimson, $lightness: -5%);
